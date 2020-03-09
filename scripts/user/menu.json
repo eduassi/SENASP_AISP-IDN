@@ -1,13 +1,13 @@
 ﻿{
     "information": {
-        "modulo-numero": "MÓDULO 1",
-        "modulo-resumido": "M1",
+        "modulo-numero": "MÓDULO 3",
+        "modulo-resumido": "M3",
         "modulo-nome": "Cardápio Base"
     },
     "configuration": {
         "target": "#menu_item_list",
         "start-level": 0,
-        "max-level": 4,
+        "max-level": 2,
         "min-level": 0,
         "prefix-name": "pages/capitulo_"
     },
@@ -22,10 +22,7 @@
         {
             "placeholder": "Realize a atividade",
             "url": "pages/capitulo_2.html"
-        },
-        {
-            "placeholder": "Referências",
-            "url": "pages/capitulo_3.html"
         }
+     
     ]
 }

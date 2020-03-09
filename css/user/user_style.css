@@ -72,3 +72,8 @@ section {
 .tab-content ol li {
     color: white;
 }
+
+/* NOVO */
+.modal-header h4 {
+    margin-top: 0 !important;
+}

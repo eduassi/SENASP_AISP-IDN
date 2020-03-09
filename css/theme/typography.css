@@ -196,9 +196,6 @@ figcaption {
     background: linear-gradient( var(--THEME_COLOR_MODULE_FOUR_LIGHT), var(--THEME_COLOR_MODULE_FOUR_LIGHT));
 }
 
-
-/* NOVO */
-
 .modulo_1 h1,
 .modulo_2 h1,
 .modulo_3 h1,
@@ -213,7 +210,6 @@ figcaption {
     margin-top: 1.75rem;
     font-size: 25pt;
     padding-bottom: 10px;
-    /* text-transform: uppercase; */
 }
 
 
@@ -320,14 +316,6 @@ figcaption {
 .modulo_4 h4 {
     font-size: 15pt;
     font-weight: 400;
-}
-
-
-/* NOVO */
-
-.modulo_1 h4 {
-    color: var(--THEME_COLOR_MODULE_ONE);
-    margin-top: 60px;
 }
 
 .modulo_1 .card h5,

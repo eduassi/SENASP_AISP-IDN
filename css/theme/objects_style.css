@@ -1465,11 +1465,6 @@ ul.sl-bullet li::before {
     padding: 20px;
 }
 
-.nav-item>a {
-    background-color: #ecebf0 !important;
-    border-color: white !important;
-}
-
 .nav-item>a.active {
     background-color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
     border-bottom-color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
@@ -1886,4 +1881,8 @@ a.nav-link {
     .modal-content {
         max-width: 290px !important;
     }
+}
+
+.text-item-responsivo {
+    height: responsive !important;
 }

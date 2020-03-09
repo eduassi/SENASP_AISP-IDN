@@ -65,6 +65,8 @@ section {
 }
 
 
+
+
 /* novo */
 
 .nav-item>a {
@@ -94,6 +96,12 @@ section {
     left: 0;
     width: 100%;
 }
+
+/* NOVO */
+.modulo_1 .flip-card-back {
+    border: 3pt solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+    background: white;
+  }
 
 .tab-content p,
 .tab-content ul li,

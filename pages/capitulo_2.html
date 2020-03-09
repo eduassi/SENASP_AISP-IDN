@@ -2,24 +2,28 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 mx-auto">
-                <h1>Referências</h1>
+                <h1>Realize a atividade</h1>
 
-                <p>
-                    BRASIL. Ministério da Segurança Pública. Secretaria Nacional de Segurança Pública. <strong>Doutrina Nacional de Atuação Integrada de Segurança Pública – DNAISP. </strong>Brasília: Ministério de Segurança Pública, 2018.
-                </p>
+                <p>Agora que você concluiu o estudo do módulo, é importante fixar seus conhecimentos, para isso disponibilizamos a seguir um questionário com assuntos relacionados ao conteúdo estudado.</p>
 
-                <p>
-                    SECRETARIA DE OPERAÇÕES INTEGRADAS (SEOPI). [Organização da operação].  1 fotografia color. Brasília, DF: SEOPI, 2019 .
-                </p>
-                <p>
-                    SHUTTERSTOCK.  [<em>S.l</em>.], 2020.  Disponível em: <a target="_blank" href="https://www.shutterstock.com/pt/">https://www.shutterstock.com/pt/</a>. Acesso em: 22 jan. 2020.
-                </p>
+                <p>Para acessá-lo, clique no botão abaixo:</p>
 
-                <p>
-                    UNIVERSIDADE FEDERAL DE SANTA CATARINA. Laboratório da Secretaria de Educação a Distância (labSEAD-UFSC). Florianópolis, 2019. Disponível em: <a target="_blank" href="http://lab.sead.ufsc.br/">http://lab.sead.ufsc.br/</a>. Acesso em:
-                    23 jan. 2020.
-                </p>
+                <!-- <a class="btn-atividade" href="https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=40064" target="_blank">
+						<img class="d-block img-fluid mx-auto" src="assets/images/identity/atividades-btn.png">
+					</a> -->
+
+                <img id="atividade" class="d-block img-fluid mx-auto pointer" src="assets/images/identity/atividades-btn.png">
+
             </div>
         </div>
     </div>
 </section>
+
+
+<script>
+    $(document).ready(function() {
+        $('#atividade').on('click', function() {
+            open('https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=40062', '_blank');
+        });
+    });
+</script>

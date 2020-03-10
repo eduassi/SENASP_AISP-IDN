@@ -22,6 +22,7 @@ header .navbar {
 
 .chapter-display {
     position: absolute;
+    display: block !important;
     width: 100%;
     z-index: -9;
 }

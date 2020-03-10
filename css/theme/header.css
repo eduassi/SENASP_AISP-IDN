@@ -24,6 +24,7 @@ header .navbar {
     position: absolute;
     width: 100%;
     z-index: -9;
+    display: block;
 }
 
 .next-mod-button {
@@ -211,11 +212,7 @@ a.capitulo-link {
     }
 }
 
-@media screen and (max-width: 375px) {
-    .chapter-display {
-        display: none;
-    }
-}
+
 
 a.btn-menu {
     text-decoration: none !important;

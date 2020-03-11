@@ -39,6 +39,8 @@ header .navbar {
     margin-top: 22px;
 }
 
+
+
 .next-mod-button img {
     padding-bottom: 15px;
 }
@@ -185,6 +187,12 @@ a.capitulo-link {
 }
 
 @media screen and (max-width: 991px) {
+    .dark-blue-text {
+        margin-left: 23px;
+        margin-right: 12px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
     .btn-menu::after {
         min-height: 60px;
     }

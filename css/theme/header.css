@@ -185,6 +185,13 @@ a.capitulo-link {
 }
 
 @media screen and (max-width: 991px) {
+    /* NOVO */
+    .dark-blue-text {
+        margin-left: 23px;
+        margin-right: 12px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
     .btn-menu::after {
         min-height: 60px;
     }

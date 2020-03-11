@@ -4,9 +4,19 @@
 @import url("typography.css");
 @import url("header.css");
 @import url("sidebar.css");
+
+/* NOVO */
 body {
-    overflow-y: scroll;
-    overflow-x: none;
+  overflow-x: hidden;
+}
+
+/* NOVO */
+#content-viewer{
+    overflow-x: hidden;
+}
+
+
+body {
     margin-top: 150px;
     font-size: 19px;
 }

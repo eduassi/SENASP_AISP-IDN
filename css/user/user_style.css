@@ -2,12 +2,12 @@
 
 body {
     overflow-y: scroll;
-    margin-top: 150px;
+    margin-top: 90px;
 }
 
 @media screen and (max-width: 991px) {
     body {
-        margin-top: 100px;
+        margin-top: 70px;
     }
 }
 
